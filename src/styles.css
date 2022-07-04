@@ -50,12 +50,12 @@
 .city {
   color: #0971f1;
   font-weight: bold;
-  text-align: center;
+  display: inline;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .temp {
   font-weight: 900px;
-  text-align: center;
+  display: inline;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .number {
