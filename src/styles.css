@@ -1,0 +1,110 @@
+.input {
+  size: 100;
+  display: block;
+  border-radius: 20;
+  margin: 0;
+}
+.container {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 50px auto;
+  padding: 20px;
+}
+.col-2 {
+  font-size: 25px;
+  font-weight: 500px;
+  background: #ba719e;
+  border-radius: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.location {
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+}
+.location:hover {
+  color: #004d40;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.coder {
+  text-align: center;
+  color: #0971f1;
+  font-weight: 100px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.condition {
+  text-align: center;
+}
+.container {
+  max-width: 700px;
+}
+.focast {
+  max-width: 500px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.last-updated {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.city {
+  color: #0971f1;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.temp {
+  font-weight: 900px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.number {
+  text-align: center;
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a:hover {
+  color: #66a3ee;
+  transition: all 200ms ease-in-out;
+  text-decoration: underline;
+}
+.weather-info {
+  opacity: 5;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  list-style: none;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 0;
+}
+img {
+  background: linear-gradient(
+    122.3deg,
+    rgb(111, 71, 133) 14.6%,
+    rgb(232, 129, 166) 29.6%,
+    rgb(237, 237, 183) 42.1%,
+    rgb(244, 166, 215) 56.7%,
+    rgb(154, 219, 232) 68.7%,
+    rgb(238, 226, 159) 84.8%
+  );
+  width: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+body {
+  background: url(" /images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+  opacity: 100;
+  border: 5px solid #fff;
+  border-radius: 30px;
+}
+h1 {
+  text-align: center;
+}
