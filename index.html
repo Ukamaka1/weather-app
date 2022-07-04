@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://kit.fontawesome.com/f8f59c13bc.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css">
+
+</head>
+<body>
+<div class="container">
+  <form class="city-search" autofocus="on" autocomplete="off" id="form-city-search" >
+    <div class="row">
+      <div class="col-9">
+      <input type="text" placeholder="Enter a City" id="enter-city"  />
+      </div>
+      <div class="col-3">
+      <input type="submit" value="Search" id="search">
+      </div>
+    </div>
+  </form> 
+  <br />
+  <i class="fa-solid fa-location-dot location" id="location"></i>
+  <div id="last-updated" class="last-updated">
+    Last updated: Saturday 21:43
+  </div>
+  <h1 class="city" id="city">Enugu, Nigeria</h1>  
+  <div class="number">
+    <span class="temp" id="temp">27</span>
+    <span class="temp-units" id="temp-units">
+      °C
+    </span>
+  </div>
+  <span class="weather-info">
+  <div id="description"></div>
+  <div  id="humidity"> humidity is </div>
+  <div  id="wind"> wind(km/h) is :
+  </span>
+  </div>
+</div>
+<div class="container" >
+  <span class="forcast">
+  <div class="row">
+    <div class="col-2">
+      Sun
+      <br />
+        ⛈
+      <br />
+        12°
+      <br />
+        53°
+    </div>
+    <div class="col-2">
+      Mon
+      <br />
+        ⛅️
+      <br />
+        17°
+      <br />
+        62°
+    </div>
+    <div class="col-2">
+      Tue
+      <br />
+         ☀️
+      <br />
+        15°
+      <br />
+        59°
+    </div>
+    <div class="col-2">
+      Wed
+      <br />
+        ⛈
+      <br />
+        27°
+      <br />
+        80°
+    </div>
+    <div class="col-2">
+      Thur
+      <br />
+        🌈
+      <br />
+        18°
+      <br />
+        64°
+    </div>
+    <div class="col-2">
+      Fri
+      <br />
+        ⛈
+      <br />
+        6°
+      <br />
+        28°
+    </span>
+    </div>
+  </div>
+    <hr />
+    
+    <div class="coder">
+      <em>Open source code by Onoh Jennifer Ukamaka </em>
+    </div>
+<script src="src/index.js"></script>
+</body>
+</html>
